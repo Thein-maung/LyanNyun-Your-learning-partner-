@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GED Math Offline + AI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="manifest.json">
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 10px;
+}
+h1 { text-align: center; }
+.topic {
+  background: #fff;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+.mm { color: #006400; }
+input, select, button {
+  width: 100%;
+  padding: 6px;
+  margin-top: 6px;
+}
+button { cursor: pointer; }
+</style>
+</head>
+
+<body>
+
+<h1>📘 GED Math Tutor</h1>
+
+<div class="topic">
+  <b>🤖 AI Explanation Language</b>
+  <select id="aiLang">
+    <option value="en">English</option>
+    <option value="mm">Myanmar</option>
+  </select>
+</div>
+
+<div class="topic">
+  <h3>🧮 Math Solver (Offline)</h3>
+  <input id="equation" placeholder="Example: 2x+5=15">
+  <button onclick="solve()">Solve</button>
+  <p id="result"></p>
+</div>
+
+<div id="content">Loading...</div>
+
+<script src="app.js"></script>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
+</script>
+
+</body>
+</html>
