@@ -1,1 +1,30 @@
-
+{
+  "topics": [
+    {
+      "id": "fraction",
+      "title_en": "Fractions",
+      "lesson_en": "Fractions show parts of a whole.",
+      "lesson_mm": "အချိုးကိန်းဆိုတာ အပြည့်တစ်ခုရဲ့ အပိုင်းဖြစ်ပါတယ်။",
+      "example_en": "1/2 means one out of two parts.",
+      "example_mm": "1/2 ဆိုတာ အပိုင်းနှစ်ပိုင်းထဲက တစ်ပိုင်းပါ။",
+      "quiz": {
+        "q_en": "What is 1/4 + 1/4?",
+        "q_mm": "1/4 နဲ့ 1/4 ပေါင်းရင်?",
+        "answer": "1/2"
+      }
+    },
+    {
+      "id": "percent",
+      "title_en": "Percentages",
+      "lesson_en": "Percent means per 100.",
+      "lesson_mm": "ရာခိုင်နှုန်းဆိုတာ ၁၀၀ ထဲက ဘယ်လောက်ဆိုတာပါ။",
+      "example_en": "50% means 50 out of 100.",
+      "example_mm": "50% ဆိုတာ ၁၀၀ ထဲက ၅၀ ပါ။",
+      "quiz": {
+        "q_en": "What is 20% of 50?",
+        "q_mm": "၅၀ ရဲ့ ၂၀% က ဘယ်လောက်လဲ?",
+        "answer": "10"
+      }
+    }
+  ]
+}
